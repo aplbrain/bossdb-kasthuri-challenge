@@ -1,0 +1,17 @@
+{
+    "name": "membrane_task",
+    "image_chan": "bossdb://Kasthuri/ac4/em", 
+    "annotation_chan": "bossdb://Kasthuri/ac4/membrane",
+    "xrange_vol": [10, 522], 
+    "yrange_vol": [12, 524],
+
+    "z_train": [0, 80],
+    "z_val": [80, 90],    
+    "z_test": [90, 100],
+    "volume_z": 1,
+
+    "tile_size": [256,256],
+    "task_type" : "membrane",
+    
+    "threshold": false
+}

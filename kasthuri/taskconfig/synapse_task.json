@@ -1,0 +1,18 @@
+{
+    "name": "synapse_task",
+    "image_chan": "bossdb://Kasthuri/ac4/em", 
+    "annotation_chan": "bossdb://Kasthuri/ac4/synapse",
+    "xrange_vol": [244, 756],
+    "yrange_vol": [244, 756],
+
+    "z_train": [0, 80],
+    "z_val": [80, 90],    
+    "z_test": [90, 100],
+    "volume_z": 1,
+
+    "tile_size": [256,256],
+    "task_type" : "synapse",
+    
+    "threshold": true,
+    "threshold_value" : 0.1
+}
