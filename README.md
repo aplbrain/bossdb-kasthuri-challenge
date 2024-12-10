@@ -4,7 +4,6 @@ Inspired by the MTNeuro Benchmark Dataset found [here](https://github.com/MTNeur
 
 ## Links
 * [Bossdb Page](https://bossdb.org/project/kasthuri2015)
-* [Challenge Website]
 
 ## Background
  In the past decade, there have been major pursuits in understanding large scale neuroanatomical structures in the brain. With such ventures, there has been a surplus amount of brain data that can potentially reveal different phenomenons about brain organization. Currently, many machine and deep learning tools are being pursued, however there is still a need for new standards for understanding these large scale brain datasets. To access this challenge, we introduce a new dataset, annotations, and tasks that provide a diverse approach to readout information about brain structure and architecture. We adapted a previous multitask neuroimaging benchmark (MTNeuro) of a volumetric, micrometer-resolution X-ray microtomography image spanning a large thalamocortical section of a mouse brain as a baseline for our challenge. Our new standardized challenge (Kasthuri Challenge) aims to generate annotations of a saturated reconstruction of a sub-volume of mouse neocortex imaged with a scanning electron microscope. Specifically, annotations of synapses and membranes are the regions of interest as they provide the best results and insights of how machine and deep learning are able pinpoint the unique connectivity at the microstructure level. Datasets, code, and pre-trained baseline models are provided at: TBD
